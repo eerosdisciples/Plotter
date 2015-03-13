@@ -17,7 +17,7 @@ Bz = map(list, zip(*Bz))
 plt.xlabel('R')
 plt.ylabel('z')
 
-imgplot = plt.imshow(Bz, origin='lower')
+imgplot = plt.imshow(Bphi, origin='lower')
 plt.show()
 
 #fig = plt.figure()
