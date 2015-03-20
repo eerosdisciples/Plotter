@@ -3,7 +3,7 @@ import numpy as np
 import csv
 from mpl_toolkits.mplot3d import Axes3D
 
-results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=1)
+results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=8)
 
 x = results[:,1]
 y = results[:,2]

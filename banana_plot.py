@@ -10,7 +10,7 @@ z_contour = contour[:,1]
 
 fig = plt.figure()
 
-results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=1)
+results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=8)
 
 x = results[:,1]
 y = results[:,2]
