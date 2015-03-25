@@ -22,9 +22,9 @@ fig = plt.figure()
 
 results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=8)
 
-x = results[:,1]
-y = results[:,2]
-z = results[:,3]
+x = results[:,2]
+y = results[:,3]
+z = results[:,4]
 
 r = np.sqrt(x**2 + y**2)
 
