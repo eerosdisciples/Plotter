@@ -29,7 +29,7 @@ plt.streamplot(R, Z, Br, Bz, linewidth=0.5)
 
 # trajectory
 
-root = '../../massive-octo-tribble/sims5/particle'
+root = '../../massive-octo-tribble/sims7/particle'
 
 filenr = args.filenumber
 

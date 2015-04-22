@@ -9,7 +9,7 @@ Bz = np.transpose(np.genfromtxt('Bz'))
 
 R,Z = meshgrid(linspace(3.5,8.9,257), linspace(-5.5,5.5,513))
 
-figure()
-Q = quiver(R[::12,::12], Z[::12,::12], Br[::12,::12], Bz[::12,::12])
+plt.streamplot(R, Z, Br, Bz, color= Br, linewidth=1, cmap=plt.cm.autumn )
+plt.colorbar()
 
 show()
